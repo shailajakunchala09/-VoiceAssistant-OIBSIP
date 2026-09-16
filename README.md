@@ -1,76 +1,79 @@
-# 🎙️ Voice Assistant
+# Voice Assistant
 
-A smart and interactive **Voice Assistant** developed as part of the **Oasis Infobyte Internship (OIBSIP)** – Python Programming Task 1.
+A Python-based intelligent voice assistant designed to understand natural-language commands and perform everyday tasks through voice interaction and a web-based interface.
 
-The project combines voice interaction, natural-language commands, web search, weather information, reminders, general knowledge, custom commands, and email functionality in a clean and user-friendly interface.
-
----
-
-## 📌 Internship Details
-
-**Internship:** Oasis Infobyte Internship (OIBSIP)  
-**Track:** Python Programming  
-**Task:** Task 1 – Voice Assistant  
-**Project Type:** Voice-Based AI Assistant
+Developed as part of the **Oasis Infobyte Internship (OIBSIP) – Python Programming Task 1**.
 
 ---
 
-## ✨ Features
+## Overview
 
-### Beginner Features
+The Voice Assistant provides a simple and interactive way to communicate with a computer using natural language.
 
-- 🎤 Voice input using speech recognition
-- 👋 Predefined greetings
-- 🕐 Current time and date
-- 🔎 Web search based on user commands
-- 🗣️ Text-to-speech responses
-- ⚠️ Graceful speech-recognition error handling
+Users can speak commands through the microphone, and the application recognizes the request, identifies the intended action, performs the task, and provides a response through the interface and text-to-speech.
 
-### Advanced Features
-
-- 🧠 Natural-language command handling
-- 🌦️ Live weather information using an API
-- ⏰ Timed reminders with audible alerts
-- 📧 Email sending through SMTP
-- 📚 General knowledge responses
-- ⚙️ Custom commands using a configuration file
-- 🌐 Web-based interface using Flask
-- 🌓 System, Light, and Dark themes
+The project combines **Python, Flask, speech recognition, text-to-speech, JavaScript, API integration, and SMTP** to create a practical voice-assistant application.
 
 ---
 
-## 🛠️ Technologies Used
+## Preview
 
-- **Python**
-- **Flask**
-- **Speech Recognition**
-- **Text-to-Speech**
-- **JavaScript**
-- **HTML5**
-- **CSS3**
-- **OpenWeatherMap API**
-- **SMTP**
-- **Git & GitHub**
+<p align="center">
+  <img src="screenshots/voice-assistant-home.png" alt="Voice Assistant Home Screen" width="850">
+</p>
+
+<p align="center">
+  <em>Voice Assistant — premium voice-first web interface</em>
+</p>
 
 ---
 
-## 📂 Project Structure
+## Key Features
+
+### Voice Interaction
+
+- Speech input through the microphone
+- Natural-language command processing
+- Text-to-speech responses
+- Clear speech-recognition error handling
+
+### Assistant Capabilities
+
+- Personalized greetings
+- Current date and time
+- Web search
+- Live weather information
+- General knowledge responses
+- Timed reminders with audible alerts
+- Email sending through SMTP
+- Custom commands through configuration
+- Portfolio and web link shortcuts
+
+### User Interface
+
+- Voice-first interactive design
+- Conversation and response area
+- Centered microphone control
+- Quick-access tool buttons
+- Responsive layout
+- System, Light, and Dark themes
+- Premium dark interface
+
+---
+
+## How It Works
 
 ```text
-VoiceAssistant/
-│
-├── app.py
-├── voice_assistant.py
-├── commands.json
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── .env.example
-├── mic_test.py
-│
-├── templates/
-│   └── index.html
-│
-└── static/
-    ├── style.css
-    └── app.js
+User Voice
+     ↓
+Speech Recognition
+     ↓
+Natural-Language Command
+     ↓
+Intent Identification
+     ↓
+Task Execution
+     ↓
+Assistant Response
+     ↓
+Text / Voice Feedback
