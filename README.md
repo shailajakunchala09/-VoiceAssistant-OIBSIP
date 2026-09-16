@@ -95,22 +95,39 @@ Environment Variables
 Python Virtual Environment
 ## Project Structure
 VoiceAssistant/
+
 │
+
 ├── app.py
+
 ├── voice_assistant.py
+
 ├── commands.json
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── .gitignore
+
 ├── .env.example
+
 ├── mic_test.py
+
 │
+
 ├── templates/
+
 │   └── index.html
+
 │
+
 └── static/
+    
     ├── style.css
+    
     └── app.js
+
 ### File Overview
 File	Purpose
 app.py	Flask application and backend functionality
