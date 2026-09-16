@@ -1,56 +1,297 @@
 # 🎙️ Voice Assistant
 
 <p align="center">
-  <img src="https://img.icons8.com/fluency/96/microphone.png" width="90" alt="Voice Assistant">
+  <img src="https://img.icons8.com/fluency/96/microphone.png" width="85" alt="Voice Assistant Logo">
 </p>
 
 <p align="center">
   <strong>Intelligent Voice Interaction for Everyday Tasks</strong>
   <br>
-  <sub>Developed by <strong>Kunchala Shailaja</strong></sub>
+  Developed by <strong>Kunchala Shailaja</strong>
 </p>
 
 <p align="center">
   A Python and Flask-based voice assistant that understands natural-language commands,
-  performs useful tasks, and delivers responses through both text and voice.
+  performs useful tasks, and responds through both text and voice.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Flask-Backend-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/OIBSIP-Internship-6C63FF?style=flat-square" alt="OIBSIP">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 </p>
 
 <p align="center">
-  <strong>Oasis Infobyte Internship (OIBSIP)</strong>
-  <br>
+  <strong>Oasis Infobyte Internship (OIBSIP)</strong><br>
   Python Programming · Task 1 — Voice Assistant
 </p>
 
 ---
 
-## Overview
+## About
 
-Voice Assistant is an interactive application built to make computer interaction more natural, convenient, and hands-free.
+Voice Assistant is a Python-based application created to make computer interaction more natural, convenient, and hands-free through voice commands.
 
-The assistant accepts voice commands in natural language, processes the request, identifies the required action, executes the task, and presents the result through the web interface and voice feedback.
+Instead of typing every request manually or switching between different applications, users can speak naturally and let the assistant process the request. The application recognizes the voice input, identifies the requested task, performs the appropriate action, and provides the result through the web interface and voice feedback.
 
-The project brings multiple utilities into a single assistant experience, including **web search, weather information, date and time, knowledge responses, reminders, email communication, and custom commands**.
-
-The application combines a **Python/Flask backend with a modern JavaScript-based frontend**, along with speech technologies and external services.
+The project combines **speech recognition, text-to-speech, natural-language command processing, web search, weather API integration, reminders, knowledge responses, email communication, custom commands, and a responsive web interface** into one application.
 
 ---
 
 ## Why This Project?
 
-Many everyday computer tasks require users to type instructions, switch between applications, or manually search for information.
+Voice interaction provides a simple and convenient way to access common computer functions.
 
-A voice assistant can simplify these interactions by allowing the user to speak naturally.
+The assistant brings several useful tasks together in one place, reducing the need to repeatedly switch between different applications or websites.
 
-For example:
+### Advantages
+
+- Hands-free interaction
+- Natural-language communication
+- Faster access to common tasks
+- Multiple utilities in one interface
+- Easy to extend with custom commands
+- Practical integration of frontend, backend, APIs, and external services
+
+---
+
+## Key Features
+
+| Feature | Description |
+|---|---|
+| 🎤 Voice Input | Accepts spoken commands through a microphone |
+| 🗣️ Voice Response | Provides spoken feedback using text-to-speech |
+| 💬 Conversation | Displays user requests and assistant responses |
+| 🕐 Date & Time | Provides the current date and time |
+| 🔎 Web Search | Searches the web for requested topics |
+| 🌤️ Weather | Retrieves live weather information |
+| 🧠 Knowledge | Answers supported general and technical questions |
+| ⏰ Reminders | Creates timed reminders with audible alerts |
+| ✉️ Email | Sends emails through SMTP |
+| ⚙️ Custom Commands | Supports configurable commands |
+| 🌓 Themes | Supports System, Light, and Dark modes |
+| ⚠️ Error Handling | Handles speech and microphone errors gracefully |
+
+---
+
+## How It Works
 
 ```text
-"What is python?"
+User Voice
+    ↓
+Speech Recognition
+    ↓
+Command Processing
+    ↓
+Intent Identification
+    ↓
+Task Execution
+    ↓
+Response Generation
+    ↓
+Text + Voice Feedback
+Example Commands
+Hello
+What is the time?
+What is today's date?
+What is the weather in Hyderabad?
+Search for Python tutorials
+What is Python?
+What is Flask?
+Remind me in 5 minutes
+Send an email
+Open my portfolio
+Technology Stack
+Backend
+Python
+Flask
+Frontend
+HTML5
+CSS3
+JavaScript
+Voice
+Speech Recognition
+Text-to-Speech
+Browser Speech Recognition
+Browser Speech Synthesis
+pyttsx3
+Services
+OpenWeatherMap API
+SMTP
+Development
+Git
+GitHub
+JSON
+Environment Variables
+Python Virtual Environment
+Project Structure
+VoiceAssistant/
+│
+├── app.py
+├── voice_assistant.py
+├── commands.json
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── .env.example
+├── mic_test.py
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+    ├── style.css
+    └── app.js
+File Overview
+File	Purpose
+app.py	Flask application and backend functionality
+voice_assistant.py	Desktop voice-assistant implementation
+commands.json	Custom command configuration
+templates/index.html	Main web interface
+static/style.css	Interface styling and responsive design
+static/app.js	Browser interaction and voice functionality
+requirements.txt	Python dependencies
+.env.example	Environment configuration template
+mic_test.py	Microphone testing utility
+.gitignore	Prevents local and sensitive files from being committed
+Installation
+Requirements
+Python 3.x
+Git
+Modern web browser
+Microphone
+Internet connection for online services
+Clone the Repository
+git clone https://github.com/shailajakunchala09/-VoiceAssistant-OIBSIP.git
+Create a Virtual Environment
+python -m venv .venv
+Activate the Environment
+
+Windows PowerShell
+
+.venv\Scripts\Activate.ps1
+Install Dependencies
+pip install -r requirements.txt
+Configuration
+
+Create a local .env file using .env.example as a reference.
+
+OPENWEATHER_API_KEY=your_api_key
+SMTP_HOST=your_smtp_host
+SMTP_PORT=your_smtp_port
+SMTP_USERNAME=your_username
+SMTP_PASSWORD=your_password
+EMAIL_ADDRESS=your_email
+
+Never upload .env, API keys, passwords, or other sensitive credentials to GitHub.
+
+Run the Application
+python app.py
+
+Open:
+
+http://127.0.0.1:5000
+
+Allow microphone access when requested by the browser.
+
+User Interface
+
+The application follows a voice-first interface design with:
+
+Central microphone interaction
+Conversation and response area
+Voice status indicator
+Quick assistant actions
+Web Search
+Weather
+Knowledge
+Create Image
+Deep Research
+Open
+Email
+Portfolio
+Live date and time
+System / Light / Dark themes
+Responsive layout
+Error Handling
+
+The application handles common problems including:
+
+No speech detected
+Microphone unavailable
+Microphone permission denied
+Unrecognized speech
+Unsupported commands
+
+When the assistant cannot understand a request, it asks the user to repeat or rephrase it.
+
+Privacy & Security
+
+Depending on the feature being used, the application may process voice input, spoken commands, search requests, weather requests, and email information.
+
+Sensitive credentials are stored through environment variables and should never be hard-coded into the application or uploaded to the public repository.
+
+The .env file is excluded through .gitignore.
+
+Current Scope
+
+The current implementation supports:
+
+Voice interaction
+Natural-language commands
+Date and time
+Web search
+Weather
+Knowledge
+Reminders
+Email
+Custom commands
+Responsive interface
+System / Light / Dark themes
+
+The Create Image and Deep Research controls are currently interface-level actions and are not connected to dedicated image-generation or autonomous research backends in this version.
+
+Future Enhancements
+Conversational memory
+Improved intent classification
+More advanced natural-language understanding
+Additional APIs and integrations
+Expanded custom commands
+Personalized user preferences
+Advanced reminder management
+Dedicated image-generation integration
+Advanced research capabilities
+Learning Outcomes
+
+This project provided practical experience in:
+
+Python programming
+Flask web development
+Speech recognition
+Text-to-speech
+Natural-language command processing
+API integration
+SMTP communication
+Frontend and backend integration
+Responsive UI development
+Git and GitHub
+Environment-variable management
+Internship
+
+Oasis Infobyte Internship (OIBSIP)
+Track: Python Programming
+Task: Task 1 — Voice Assistant
+
+Developer
+
+Kunchala Shailaja
+
+BCA Graduate | Python Programming | AI/ML Learner
+
+GitHub: https://github.com/shailajakunchala09
+
+Project Status
+
+Completed — Oasis Infobyte Internship (OIBSIP), Python Programming Task 1
