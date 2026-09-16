@@ -76,48 +76,21 @@ The assistant brings several useful tasks together in one place, reducing the ne
 
 ---
 
-## How It Works
-
-```text
-User Voice
-    ↓
-Speech Recognition
-    ↓
-Command Processing
-    ↓
-Intent Identification
-    ↓
-Task Execution
-    ↓
-Response Generation
-    ↓
-Text + Voice Feedback
-Example Commands
-Hello
-What is the time?
-What is today's date?
-What is the weather in Hyderabad?
-Search for Python tutorials
-What is Python?
-What is Flask?
-Remind me in 5 minutes
-Send an email
-Open my portfolio
-Technology Stack
-Backend
+### Technology Stack
+## Backend
 Python
 Flask
-Frontend
+## Frontend
 HTML5
 CSS3
 JavaScript
-Voice
+## Voice
 Speech Recognition
 Text-to-Speech
 Browser Speech Recognition
 Browser Speech Synthesis
 pyttsx3
-Services
+## Services
 OpenWeatherMap API
 SMTP
 Development
@@ -126,7 +99,7 @@ GitHub
 JSON
 Environment Variables
 Python Virtual Environment
-Project Structure
+## Project Structure
 VoiceAssistant/
 │
 ├── app.py
@@ -144,7 +117,7 @@ VoiceAssistant/
 └── static/
     ├── style.css
     └── app.js
-File Overview
+### File Overview
 File	Purpose
 app.py	Flask application and backend functionality
 voice_assistant.py	Desktop voice-assistant implementation
@@ -156,104 +129,8 @@ requirements.txt	Python dependencies
 .env.example	Environment configuration template
 mic_test.py	Microphone testing utility
 .gitignore	Prevents local and sensitive files from being committed
-Installation
-Requirements
-Python 3.x
-Git
-Modern web browser
-Microphone
-Internet connection for online services
-Clone the Repository
-git clone https://github.com/shailajakunchala09/-VoiceAssistant-OIBSIP.git
-Create a Virtual Environment
-python -m venv .venv
-Activate the Environment
 
-Windows PowerShell
-
-.venv\Scripts\Activate.ps1
-Install Dependencies
-pip install -r requirements.txt
-Configuration
-
-Create a local .env file using .env.example as a reference.
-
-OPENWEATHER_API_KEY=your_api_key
-SMTP_HOST=your_smtp_host
-SMTP_PORT=your_smtp_port
-SMTP_USERNAME=your_username
-SMTP_PASSWORD=your_password
-EMAIL_ADDRESS=your_email
-
-Never upload .env, API keys, passwords, or other sensitive credentials to GitHub.
-
-Run the Application
-python app.py
-
-Open:
-
-http://127.0.0.1:5000
-
-Allow microphone access when requested by the browser.
-
-User Interface
-
-The application follows a voice-first interface design with:
-
-Central microphone interaction
-Conversation and response area
-Voice status indicator
-Quick assistant actions
-Web Search
-Weather
-Knowledge
-Create Image
-Deep Research
-Open
-Email
-Portfolio
-Live date and time
-System / Light / Dark themes
-Responsive layout
-Error Handling
-
-The application handles common problems including:
-
-No speech detected
-Microphone unavailable
-Microphone permission denied
-Unrecognized speech
-Unsupported commands
-
-When the assistant cannot understand a request, it asks the user to repeat or rephrase it.
-
-Privacy & Security
-
-Depending on the feature being used, the application may process voice input, spoken commands, search requests, weather requests, and email information.
-
-Sensitive credentials are stored through environment variables and should never be hard-coded into the application or uploaded to the public repository.
-
-The .env file is excluded through .gitignore.
-
-Current Scope
-
-The current implementation supports:
-
-Voice interaction
-Natural-language commands
-Date and time
-Web search
-Weather
-Knowledge
-Reminders
-Email
-Custom commands
-Responsive interface
-System / Light / Dark themes
-
-The Create Image and Deep Research controls are currently interface-level actions and are not connected to dedicated image-generation or autonomous research backends in this version.
-
-Future Enhancements
+## Future Enhancements
 Conversational memory
 Improved intent classification
 More advanced natural-language understanding
@@ -265,28 +142,8 @@ Dedicated image-generation integration
 Advanced research capabilities
 Learning Outcomes
 
-This project provided practical experience in:
-
-Python programming
-Flask web development
-Speech recognition
-Text-to-speech
-Natural-language command processing
-API integration
-SMTP communication
-Frontend and backend integration
-Responsive UI development
-Git and GitHub
-Environment-variable management
-Internship
-
-Oasis Infobyte Internship (OIBSIP)
-Track: Python Programming
-Task: Task 1 — Voice Assistant
-
-Developer
-
-Kunchala Shailaja
+### Developer
+ ## Kunchala Shailaja
 
 BCA Graduate | Python Programming | AI/ML Learner
 
