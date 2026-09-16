@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Intelligent Voice Interaction for Everyday Tasks</strong>
+  <strong>Intelligent Voice Interaction </strong>
   <br>
 </p>
 
