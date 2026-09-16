@@ -90,3 +90,71 @@ Task Execution
 Response Generation
     ↓
 Text + Voice Feedback
+
+Technology Stack
+
+Backend
+
+Python
+Flask
+
+Frontend
+
+HTML5
+CSS3
+JavaScript
+
+Voice
+
+Speech Recognition
+Text-to-Speech
+Browser Speech Recognition
+Browser Speech Synthesis
+pyttsx3
+
+Services
+
+OpenWeatherMap API
+SMTP
+
+Development
+
+Git
+GitHub
+JSON
+Environment Variables
+Python Virtual Environment
+
+Project Structure
+VoiceAssistant/
+│
+├── app.py
+├── voice_assistant.py
+├── commands.json
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── .env.example
+├── mic_test.py
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+    ├── style.css
+    └── app.js
+File Overview
+File	Purpose
+app.py	Flask application and backend functionality
+voice_assistant.py	Desktop voice-assistant implementation
+commands.json	Custom command configuration
+templates/index.html	Main web interface
+static/style.css	Interface styling and responsive design
+static/app.js	Browser interaction and voice functionality
+requirements.txt	Python dependencies
+.env.example	Environment configuration template
+mic_test.py	Microphone testing utility
+.gitignore	Prevents local and sensitive files from being committed
+
+## Developer : kunchala shailaja
+
