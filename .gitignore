@@ -1,26 +1,7 @@
-# Python
+.venv/
+.env
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Virtual environment
-.venv/
-venv/
-env/
-
-# Environment secrets
-.env
-
-# IDE
+*.log
 .vscode/
 .idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
