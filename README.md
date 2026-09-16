@@ -5,7 +5,8 @@
 </p>
 
 <p align="center">
-  <strong>Intelligent Voice Interaction for Everyday Tasks</strong>
+  <strong>Intelligent Voice Interaction for Everyday Tasks</strong><br>
+  <strong>Developer: Kunchala Shailaja</strong>
 </p>
 
 <p align="center">
@@ -25,70 +26,3 @@
   <strong>Oasis Infobyte Internship (OIBSIP)</strong><br>
   Python Programming · Task 1 — Voice Assistant
 </p>
-
----
-
-## About
-
-Voice Assistant is a Python-based application created to make computer interaction more natural, convenient, and hands-free through voice commands.
-
-Instead of typing every request manually or switching between different applications, users can speak naturally and let the assistant process the request. The application recognizes the voice input, identifies the requested task, performs the appropriate action, and provides the result through the web interface and voice feedback.
-
-The project combines **speech recognition, text-to-speech, natural-language command processing, web search, weather API integration, reminders, knowledge responses, email communication, custom commands, and a responsive web interface** into one application.
-
----
-
-## Why This Project?
-
-Voice interaction offers a simple and convenient way to access common computer functions.
-
-The project demonstrates how a voice-based interface can bring multiple everyday utilities together in a single application.
-
-### Advantages
-
-- Hands-free interaction
-- Natural-language communication
-- Faster access to common tasks
-- Multiple utilities in one interface
-- Easy to extend with custom commands
-- Practical integration of frontend, backend, APIs, and external services
-
----
-
-## Key Features
-
-| Feature | Description |
-|---|---|
-| 🎤 Voice Input | Accepts spoken commands through a microphone |
-| 🗣️ Voice Response | Provides spoken feedback using text-to-speech |
-| 💬 Conversation | Displays user requests and assistant responses |
-| 🕐 Date & Time | Provides the current date and time |
-| 🔎 Web Search | Searches the web for requested topics |
-| 🌤️ Weather | Retrieves live weather information |
-| 🧠 Knowledge | Answers supported general and technical questions |
-| ⏰ Reminders | Creates timed reminders with audible alerts |
-| ✉️ Email | Sends emails through SMTP |
-| ⚙️ Custom Commands | Supports configurable commands |
-| 🌓 Themes | Supports System, Light, and Dark modes |
-| ⚠️ Error Handling | Handles speech and microphone errors gracefully |
-
----
-
-## How It Works
-
-```text
-User Voice
-    ↓
-Speech Recognition
-    ↓
-Command Processing
-    ↓
-Intent Identification
-    ↓
-Task Execution
-    ↓
-Response Generation
-    ↓
-Text + Voice Feedback
-
-
