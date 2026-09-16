@@ -1,26 +1,24 @@
 # 🎙️ Voice Assistant
 
 <p align="center">
-  <img src="https://img.icons8.com/fluency/96/microphone.png" width="85" alt="Voice Assistant Logo">
+  <img src="https://img.icons8.com/fluency/96/microphone.png" width="90" alt="Voice Assistant Logo">
 </p>
 
 <p align="center">
-  <strong>Intelligent voice interaction for simple, natural, and hands-free tasks.</strong>
+  <strong>Intelligent Voice Interaction for Everyday Tasks</strong>
 </p>
 
 <p align="center">
-  A Python and Flask-based voice assistant that understands natural-language commands and performs useful actions through voice and a web interface.
+  A Python and Flask-based voice assistant that understands natural-language commands,
+  performs useful tasks, and responds through both text and voice.
 </p>
 
 <p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-Web%20Framework-000000?style=flat-square&logo=flask&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![OIBSIP](https://img.shields.io/badge/Oasis%20Infobyte-OIBSIP-6C63FF?style=flat-square)
-
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 </p>
 
 <p align="center">
@@ -30,33 +28,65 @@
 
 ---
 
-## About the Project
+## About
 
-**Voice Assistant** is a Python-based application designed to provide a natural way of interacting with a computer through voice commands.
+Voice Assistant is a Python-based application created to make computer interaction more natural and convenient through voice commands.
 
-Instead of manually typing commands or opening different services for simple tasks, users can speak naturally and let the assistant process the request.
+Instead of typing every request manually, the user can speak naturally. The application recognizes the voice input, identifies the requested task, performs the appropriate action, and provides the result through the web interface and voice feedback.
 
-The application receives the user's command, identifies the requested action, performs the task, and provides the result through the interface and voice feedback.
-
-The project combines **Python, Flask, JavaScript, speech recognition, text-to-speech, API integration, reminders, SMTP communication, and configurable commands** into one practical application.
+The project combines speech recognition, text-to-speech, command processing, APIs, automation, email communication, and a responsive web interface into one application.
 
 ---
 
 ## Why This Project?
 
-Voice interaction provides a simple and hands-free way to access information and perform routine tasks.
+Voice interaction provides a simple and hands-free way to access common computer functions.
 
-This project demonstrates how different technologies can work together to create a useful assistant:
+The assistant brings several useful tasks together in one place, reducing the need to repeatedly switch between different applications or websites.
+
+It can be useful for:
+
+- Hands-free interaction
+- Quick access to information
+- Natural-language communication
+- Everyday productivity
+- Centralized assistant utilities
+- Learning and experimenting with voice-based applications
+
+---
+
+## Key Features
+
+| Feature | Description |
+|---|---|
+| 🎤 Voice Input | Accepts spoken commands through a microphone |
+| 🗣️ Voice Response | Provides spoken feedback using text-to-speech |
+| 💬 Conversation | Displays user requests and assistant responses |
+| 🕐 Date & Time | Provides the current date and time |
+| 🔎 Web Search | Searches the web for requested topics |
+| 🌤️ Weather | Retrieves live weather information |
+| 🧠 Knowledge | Answers supported general and technical questions |
+| ⏰ Reminders | Creates timed reminders with audible alerts |
+| ✉️ Email | Sends emails through SMTP |
+| ⚙️ Custom Commands | Supports configurable commands |
+| 🌓 Themes | Supports System, Light, and Dark modes |
+| ⚠️ Error Handling | Handles speech and microphone errors gracefully |
+
+---
+
+## How It Works
 
 ```text
-Voice Input
-     ↓
+User Voice
+    ↓
 Speech Recognition
-     ↓
-Command Understanding
-     ↓
-Intent Detection
-     ↓
+    ↓
+Command Processing
+    ↓
+Intent Identification
+    ↓
 Task Execution
-     ↓
-Assistant Response
+    ↓
+Response Generation
+    ↓
+Text + Voice Feedback
