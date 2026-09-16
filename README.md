@@ -1,7 +1,7 @@
 # 🎙️ Voice Assistant
 
 <p align="center">
-  <img src="https://img.icons8.com/fluency/96/microphone.png" width="90" alt="Voice Assistant Logo">
+  <img src="https://img.icons8.com/fluency/96/microphone.png" width="85" alt="Voice Assistant Logo">
 </p>
 
 <p align="center">
@@ -30,28 +30,28 @@
 
 ## About
 
-Voice Assistant is a Python-based application created to make computer interaction more natural and convenient through voice commands.
+Voice Assistant is a Python-based application created to make computer interaction more natural, convenient, and hands-free through voice commands.
 
-Instead of typing every request manually, the user can speak naturally. The application recognizes the voice input, identifies the requested task, performs the appropriate action, and provides the result through the web interface and voice feedback.
+Instead of typing every request manually or switching between different applications, users can speak naturally and let the assistant process the request. The application recognizes the voice input, identifies the requested task, performs the appropriate action, and provides the result through the web interface and voice feedback.
 
-The project combines speech recognition, text-to-speech, command processing, APIs, automation, email communication, and a responsive web interface into one application.
+The project combines **speech recognition, text-to-speech, natural-language command processing, web search, weather API integration, reminders, knowledge responses, email communication, custom commands, and a responsive web interface** into one application.
 
 ---
 
 ## Why This Project?
 
-Voice interaction provides a simple and hands-free way to access common computer functions.
+Voice interaction offers a simple and convenient way to access common computer functions.
 
-The assistant brings several useful tasks together in one place, reducing the need to repeatedly switch between different applications or websites.
+The project demonstrates how a voice-based interface can bring multiple everyday utilities together in a single application.
 
-It can be useful for:
+### Advantages
 
 - Hands-free interaction
-- Quick access to information
 - Natural-language communication
-- Everyday productivity
-- Centralized assistant utilities
-- Learning and experimenting with voice-based applications
+- Faster access to common tasks
+- Multiple utilities in one interface
+- Easy to extend with custom commands
+- Practical integration of frontend, backend, APIs, and external services
 
 ---
 
@@ -91,70 +91,4 @@ Response Generation
     ↓
 Text + Voice Feedback
 
-## Technology Stack
-
-Backend
-
-Python
-Flask
-
-## Frontend
-
-HTML5
-CSS3
-JavaScript
-
-## Voice
-Speech Recognition
-Text-to-Speech
-Browser Speech Recognition
-Browser Speech Synthesis
-pyttsx3
-
-## Services
-OpenWeatherMap API
-SMTP
-
-## Development
-Git
-GitHub
-JSON
-Environment Variables
-Python Virtual Environment
-
-## Project Structure
-VoiceAssistant/
-│
-├── app.py
-├── voice_assistant.py
-├── commands.json
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── .env.example
-├── mic_test.py
-│
-├── templates/
-│   └── index.html
-│
-└── static/
-    ├── style.css
-    └── app.js
-
-
-## File Overview
-File	Purpose
-app.py	Flask application and backend functionality
-voice_assistant.py	Desktop voice-assistant implementation
-commands.json	Custom command configuration
-templates/index.html	Main web interface
-static/style.css	Interface styling and responsive design
-static/app.js	Browser interaction and voice functionality
-requirements.txt	Python dependencies
-.env.example	Environment configuration template
-mic_test.py	Microphone testing utility
-.gitignore	Prevents local and sensitive files from being committed
-
-
-## Developer : kunchala shailaja
 
