@@ -91,41 +91,38 @@ Response Generation
     ↓
 Text + Voice Feedback
 
-Technology Stack
+## Technology Stack
 
 Backend
 
 Python
 Flask
 
-Frontend
+## Frontend
 
 HTML5
 CSS3
 JavaScript
 
-Voice
-
+## Voice
 Speech Recognition
 Text-to-Speech
 Browser Speech Recognition
 Browser Speech Synthesis
 pyttsx3
 
-Services
-
+## Services
 OpenWeatherMap API
 SMTP
 
-Development
-
+## Development
 Git
 GitHub
 JSON
 Environment Variables
 Python Virtual Environment
 
-Project Structure
+## Project Structure
 VoiceAssistant/
 │
 ├── app.py
@@ -143,7 +140,9 @@ VoiceAssistant/
 └── static/
     ├── style.css
     └── app.js
-File Overview
+
+
+## File Overview
 File	Purpose
 app.py	Flask application and backend functionality
 voice_assistant.py	Desktop voice-assistant implementation
@@ -155,6 +154,7 @@ requirements.txt	Python dependencies
 .env.example	Environment configuration template
 mic_test.py	Microphone testing utility
 .gitignore	Prevents local and sensitive files from being committed
+
 
 ## Developer : kunchala shailaja
 
