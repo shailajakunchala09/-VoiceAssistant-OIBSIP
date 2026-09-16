@@ -1,92 +1,45 @@
-# 🎙️ Voice Assistant
+# Voice Assistant
 
 <p align="center">
-  <strong>Talk naturally. Search, learn, and get things done.</strong>
+  <img src="https://img.icons8.com/fluency/96/microphone.png" width="80" alt="Voice Assistant Logo">
 </p>
 
 <p align="center">
-  An intelligent voice-first assistant built with Python, Flask, JavaScript, and speech technologies.
+  <strong>Intelligent voice interaction built with Python and Flask</strong>
 </p>
 
 <p align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-Backend-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![OIBSIP](https://img.shields.io/badge/Oasis%20Infobyte-OIBSIP-6C63FF?style=for-the-badge)](https://oasisinfobyte.com/)
-
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white">
+  <img src="https://img.shields.io/badge/OIBSIP-Internship-6C63FF?style=flat-square">
 </p>
 
-<p align="center">
-<strong>Oasis Infobyte Internship (OIBSIP)</strong> · Python Programming · Task 1
-</p>
+## About
 
----
+Voice Assistant is a Python-based application that understands natural-language voice commands and performs useful tasks through a web-based interface.
 
-## Overview
+Developed as part of the **Oasis Infobyte Internship (OIBSIP) – Python Programming Task 1**.
 
-**Voice Assistant** is a voice-driven application that allows users to communicate with an assistant using natural-language commands.
+## Features
 
-Instead of typing a command or navigating through multiple screens, the user can simply speak a request. The application recognizes the input, identifies the requested action, performs the task, and returns the result through the interface and voice feedback.
+- Voice input and speech recognition
+- Text-to-speech responses
+- Date and time
+- Web search
+- Live weather information
+- General knowledge
+- Timed reminders
+- Email through SMTP
+- Custom commands
+- Responsive web interface
+- System, Light, and Dark themes
 
-The project demonstrates the practical combination of:
+## Technology
 
-**Speech Recognition → Command Processing → Intent Detection → Task Execution → Voice Response**
+**Python · Flask · HTML · CSS · JavaScript · Speech Recognition · Text-to-Speech · OpenWeatherMap API · SMTP**
 
----
+## Run Locally
 
-## What Can It Do?
-
-| Capability | What it does |
-|---|---|
-| 🎤 Voice Input | Captures spoken commands |
-| 💬 Conversation | Displays user requests and assistant responses |
-| 🔎 Web Search | Searches the web for a requested topic |
-| 🌤️ Weather | Retrieves live weather information |
-| 🧠 Knowledge | Answers supported general and technical questions |
-| ⏰ Reminders | Creates timed reminders with audible alerts |
-| ✉️ Email | Sends email through SMTP |
-| ⚙️ Custom Commands | Supports configurable commands |
-| 🕐 Date & Time | Provides current date and time |
-| 🎨 Themes | Supports System, Light, and Dark modes |
-
----
-
-## How It Works
-
-```text
-                    ┌──────────────────┐
-                    │       USER       │
-                    │  Voice / Action  │
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │ Speech Recognition│
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │ Command Handling │
-                    │ Intent Detection │
-                    └────────┬─────────┘
-                             │
-            ┌────────────────┼────────────────┐
-            │                │                │
-            ▼                ▼                ▼
-         Search          Weather          Knowledge
-            │                │                │
-            └────────────────┼────────────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              │              │              │
-              ▼              ▼              ▼
-          Reminder         Email        Custom Command
-              │              │              │
-              └──────────────┼──────────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │ Assistant Result │
-                    │   Text + Voice   │
-                    └──────────────────┘
+```bash
+pip install -r requirements.txt
+python app.py
